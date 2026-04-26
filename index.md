@@ -8,11 +8,13 @@
 I'm an ICT student at **Oulu University of Applied Sciences (Oamk)**, studying cloud infrastructure, web development, and automation systems.
 
 My background includes hands-on work with:
-- ⚡ Electrical systems and electronics
-- 🌡️ HVAC / air conditioning and refrigeration
-- 🏗️ Building automation (Fidelix BMS/PLC systems)
+-  Electrical systems and electronics
+-  HVAC / air conditioning and refrigeration
+-  Building automation (Fidelix BMS/PLC systems)
 
 Currently deepening skills in **Linux system administration**, **cloud platforms (Azure)**, and **DevOps tooling**.
+
+---
 
 ---
 
@@ -28,16 +30,7 @@ Currently deepening skills in **Linux system administration**, **cloud platforms
 
 ---
 
-## 📚 Projects
 
-### 🔧 [Cloud Services Coursework](./projects/cloud.md)
-Azure deployments using Terraform IaC — VMs, container registries, MQTT over TLS, and AI Vision services.
-
-### 🌐 [Web Development Coursework](./projects/web.md)
-Frontend and backend projects from Oamk web development course.
-
-### 🏠 [Home Server & Automation](./projects/homeserver.md)
-Self-hosted CI/CD with GitHub Actions, Nginx reverse proxy, and home automation experiments.
 
 ---
 
@@ -48,15 +41,6 @@ Self-hosted CI/CD with GitHub Actions, Nginx reverse proxy, and home automation 
 | 4.2026 | Docker + Azure CR | Deployed containerized app to Azure Container Registry |
 | 4.2026 | Terraform IaC | Full Azure VM stack, learned secret management the hard way 😅 |
 | 4.2026 | GitHub Actions CI/CD | Self-hosted runner, Nginx reverse proxy, home server pipeline |
-
-> 📝 *More entries will be added as the course progresses.*
-
----
-
-## 📬 Contact
-
-- **GitHub:** [@jmitteli](https://github.com/jmitteli)
-- **School:** [Oamk — Oulun ammattikorkeakoulu](https://www.oamk.fi)
 
 ---
 
