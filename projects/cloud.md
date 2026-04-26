@@ -1,4 +1,4 @@
-# ☁️ Cloud Services Projects
+
 
 [← Back to Home](../)
 
@@ -16,11 +16,7 @@ Deployed a full Azure VM stack using Terraform as Infrastructure as Code (IaC).
 - Deployed a Linux VM with networking, storage, and security groups
 - Managed state files and resolved provider/quota issues
 - Learned about **secret management** after accidentally exposing a subscription ID *(always use `.env` files and `.gitignore`!)*
-
-### Screenshot
-
-> 📸 *Add your screenshot here*
-
+---
 ---
 
 ## Docker + Azure Container Registry
@@ -48,28 +44,7 @@ docker tag myapp myregistry.azurecr.io/myapp:latest
 docker push myregistry.azurecr.io/myapp:latest
 ```
 
-### Screenshot
-
-> 📸 *Add your screenshot here*
-
 ---
-
-## MQTT over TLS on Azure Ubuntu VM
-
-**Course:** Cloud Services | **Status:** ✅ Complete
-
-Set up a secure MQTT broker on an Azure Ubuntu VM, managed via Terraform.
-
-### What I did
-
-- Provisioned an Ubuntu VM with Terraform
-- Installed and configured Mosquitto MQTT broker
-- Configured TLS certificates for secure communication
-- Tested publish/subscribe over encrypted connection
-
-### Screenshot
-
-> 📸 *Add your screenshot here*
 
 ---
 
@@ -85,10 +60,5 @@ Python scripting assignment using Azure Cognitive Services / AI Vision API.
 - Analysed images and extracted metadata
 - Handled API keys securely using environment variables
 
-### Screenshot
-
-> 📸 *Add your screenshot here*
-
 ---
 
-*More projects will be added as the course progresses.*

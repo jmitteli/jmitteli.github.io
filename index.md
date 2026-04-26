@@ -1,6 +1,5 @@
-# Jussi Mitteli — ICT Student Portfolio
 
-> Cloud services · Linux · Building automation · Web development
+
 
 ---
 
@@ -22,10 +21,10 @@ Currently deepening skills in **Linux system administration**, **cloud platforms
 | Area | Tools & Technologies |
 |------|----------------------|
 | Cloud | Microsoft Azure, Terraform, Docker |
-| Linux | Fedora, KVM/QEMU, Nginx, WireGuard |
-| Programming | Java, Python, Bash, IEC 61131-3 (ST) |
+| Linux | Fedora, KVM/QEMU, Nginx |
+| Programming | Java, C++, C, Bash, IEC 61131-3 (ST) |
 | DevOps | GitHub Actions, Azure Container Registry |
-| BMS/PLC | Fidelix systems, building automation |
+| BMS/PLC | Fidelix systems, Caverion Drive building automation |
 
 ---
 
@@ -46,10 +45,9 @@ Self-hosted CI/CD with GitHub Actions, Nginx reverse proxy, and home automation 
 
 | Date | Topic | Notes |
 |------|-------|-------|
-| 2025 | Docker + Azure CR | Deployed containerized app to Azure Container Registry |
-| 2025 | Terraform IaC | Full Azure VM stack, learned secret management the hard way 😅 |
-| 2025 | MQTT over TLS | Secure broker on Azure Ubuntu VM via Terraform |
-| 2025 | GitHub Actions CI/CD | Self-hosted runner, Nginx reverse proxy, home server pipeline |
+| 4.2026 | Docker + Azure CR | Deployed containerized app to Azure Container Registry |
+| 4.2026 | Terraform IaC | Full Azure VM stack, learned secret management the hard way 😅 |
+| 4.2026 | GitHub Actions CI/CD | Self-hosted runner, Nginx reverse proxy, home server pipeline |
 
 > 📝 *More entries will be added as the course progresses.*
 
@@ -62,4 +60,3 @@ Self-hosted CI/CD with GitHub Actions, Nginx reverse proxy, and home automation 
 
 ---
 
-*This site is part of the Cloud Services course extra assignment — built with GitHub Pages and GitHub Flavored Markdown.*
