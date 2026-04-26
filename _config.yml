@@ -1,3 +1,47 @@
-theme: jekyll-theme-minimal
-title: Jussi's homepage
-description: Bookmark this to keep an eye on my project updates!
+# _config.yml
+# GitHub Pages Jekyll configuration
+# This file controls how GitHub Pages builds your site
+
+# --- Site Identity ---
+title: "Jussi Mitteli — ICT Portfolio"
+description: "ICT student at Oamk. Cloud, Linux, BMS, and more."
+author: "Jussi Mitteli"
+
+# --- Theme ---
+# GitHub Pages supported themes: https://pages.github.com/themes/
+# Options: minima, cayman, slate, midnight, architect, tactile, minimal, merlot, hacker, leap-day, dinky, modernist, time-machine
+theme: minima
+
+# --- Navigation (minima supports this) ---
+header_pages:
+  - index.md
+  - projects/cloud.md
+  - projects/web.md
+  - projects/homeserver.md
+
+# --- Social links (minima theme) ---
+minima:
+  social_links:
+    github: jmitteli
+
+# --- Markdown settings ---
+markdown: kramdown          # kramdown supports GitHub Flavored Markdown
+highlighter: rouge          # syntax highlighting for code blocks
+
+kramdown:
+  input: GFM                # GFM = GitHub Flavored Markdown
+  syntax_highlighter: rouge
+
+# --- Plugins ---
+plugins:
+  - jekyll-feed             # generates RSS feed automatically
+
+# --- Exclude from build ---
+# These files exist in the repo but should NOT be published to the site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - secrets/               # IMPORTANT: never publish secrets!
+  - "*.env"

@@ -1,0 +1,40 @@
+# ============================================================
+# .gitignore for GitHub Pages / Jekyll site
+# ============================================================
+
+# --- Jekyll build output ---
+# The _site/ folder is generated locally — GitHub Pages builds it on their servers
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# --- Ruby / Bundler (if running Jekyll locally) ---
+Gemfile.lock
+vendor/
+
+# --- ⚠️  SECRETS — NEVER COMMIT THESE ⚠️  ---
+# API keys, passwords, tokens — keep these OUT of git!
+.env
+.env.local
+.env.*
+secrets/
+secrets.yml
+secrets.json
+*_secret*
+*_key*
+*.pem
+*.key
+
+# --- OS junk ---
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini         # Windows
+
+# --- Editor temp files ---
+*.swp               # Vim swap files
+*.swo
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
