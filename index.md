@@ -5,7 +5,7 @@
 
 ## 👋 About Me
 
-I'm an ICT student at **Oulu University of Applied Sciences (Oamk)**, studying cloud infrastructure, web development, and automation systems.
+I'm an ICT student at **Oulu University of Applied Sciences (Oamk)**, studying cloud infrastructure, web development and Operating systems.
 
 My background includes hands-on work with:
 -  Electrical systems and electronics
